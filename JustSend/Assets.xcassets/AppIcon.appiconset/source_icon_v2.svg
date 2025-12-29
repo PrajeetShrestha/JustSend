@@ -1,0 +1,17 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" fill="white"/>
+  
+  <!-- Outer Border (Rounded Rectangle) -->
+  <rect x="100" y="100" width="824" height="824" rx="180" ry="180" fill="none" stroke="#4169E1" stroke-width="60"/>
+
+  <!-- Mailbox Shape -->
+  <!-- Base and Arch -->
+  <path d="M362 500 V 750 H 662 V 500 A 150 150 0 0 0 362 500 Z" fill="none" stroke="#4169E1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Slot (Horizontal line in middle) -->
+  <line x1="412" y1="500" x2="612" y2="500" stroke="#4169E1" stroke-width="40" stroke-linecap="round"/>
+
+  <!-- Flag (Up position) -->
+  <path d="M662 650 L 780 450 H 662" fill="none" stroke="#4169E1" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+  
+</svg>

@@ -1,0 +1,4 @@
+TEAM_ID = YOUR_TEAM_ID_HERE
+BUNDLE_ID = com.example.app.identifier
+INFOPLIST_KEY_TEAM_ID = $(TEAM_ID)
+INFOPLIST_KEY_CFBundleIdentifier = $(BUNDLE_ID)

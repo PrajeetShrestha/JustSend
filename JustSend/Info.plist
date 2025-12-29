@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSApplicationCrashOnExceptions</key>
+	<true/>
+	<key>SUFeedURL</key>
+	<string>https://raw.githubusercontent.com/PrajeetShrestha/JustSend/main/appcast.xml</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>SUPublicEDKey</key>
+	<string>buSBLmtvrB+kmTIbZQIWWiJUyt+9954+SZDl6Qrmxik=</string>
+</dict>
+</plist>

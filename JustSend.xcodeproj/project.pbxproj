@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B64AF7492F016FDD00EFA947 /* InfomaniakRichHTMLEditor in Frameworks */ = {isa = PBXBuildFile; productRef = B64AF7012F016A0000EFA947 /* InfomaniakRichHTMLEditor */; };
+		B6AC828D2F02450C00761EEA /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = B64AF8012F016A0000EFA947 /* Sparkle */; };
+		B6B2C03C2F02B6E1006E363F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B6B2C03B2F02B6E1006E363F /* FirebaseAnalytics */; };
+		B6B2C03E2F02B6E1006E363F /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = B6B2C03D2F02B6E1006E363F /* FirebaseAnalyticsCore */; };
+		B6B2C0402F02B6E1006E363F /* FirebaseAnalyticsIdentitySupport in Frameworks */ = {isa = PBXBuildFile; productRef = B6B2C03F2F02B6E1006E363F /* FirebaseAnalyticsIdentitySupport */; };
+		B6B2C0422F02B6E1006E363F /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = B6B2C0412F02B6E1006E363F /* FirebaseCrashlytics */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B64AF6DA2F0169AC00EFA947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B64AF6C42F0169AB00EFA947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B64AF6CB2F0169AB00EFA947;
+			remoteInfo = JustSend;
+		};
+		B64AF6E42F0169AD00EFA947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B64AF6C42F0169AB00EFA947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B64AF6CB2F0169AB00EFA947;
+			remoteInfo = JustSend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B64AF6CC2F0169AB00EFA947 /* JustSend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustSend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64AF6D92F0169AC00EFA947 /* JustSendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustSendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64AF6E32F0169AD00EFA947 /* JustSendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustSendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64AF9012F0169AB00EFA947 /* release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B64AF6CE2F0169AB00EFA947 /* JustSend */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JustSend;
+			sourceTree = "<group>";
+		};
+		B64AF6DC2F0169AC00EFA947 /* JustSendTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JustSendTests;
+			sourceTree = "<group>";
+		};
+		B64AF6E62F0169AD00EFA947 /* JustSendUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JustSendUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B64AF6C92F0169AB00EFA947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AC828D2F02450C00761EEA /* Sparkle in Frameworks */,
+				B6B2C0402F02B6E1006E363F /* FirebaseAnalyticsIdentitySupport in Frameworks */,
+				B64AF7492F016FDD00EFA947 /* InfomaniakRichHTMLEditor in Frameworks */,
+				B6B2C0422F02B6E1006E363F /* FirebaseCrashlytics in Frameworks */,
+				B6B2C03C2F02B6E1006E363F /* FirebaseAnalytics in Frameworks */,
+				B6B2C03E2F02B6E1006E363F /* FirebaseAnalyticsCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64AF6D62F0169AC00EFA947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64AF6E02F0169AD00EFA947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B64AF6C32F0169AB00EFA947 = {
+			isa = PBXGroup;
+			children = (
+				B64AF9012F0169AB00EFA947 /* release.xcconfig */,
+				B64AF6CE2F0169AB00EFA947 /* JustSend */,
+				B64AF6DC2F0169AC00EFA947 /* JustSendTests */,
+				B64AF6E62F0169AD00EFA947 /* JustSendUITests */,
+				B64AF6CD2F0169AB00EFA947 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B64AF6CD2F0169AB00EFA947 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B64AF6CC2F0169AB00EFA947 /* JustSend.app */,
+				B64AF6D92F0169AC00EFA947 /* JustSendTests.xctest */,
+				B64AF6E32F0169AD00EFA947 /* JustSendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B64AF6CB2F0169AB00EFA947 /* JustSend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64AF6ED2F0169AD00EFA947 /* Build configuration list for PBXNativeTarget "JustSend" */;
+			buildPhases = (
+				B64AF6C82F0169AB00EFA947 /* Sources */,
+				B64AF6C92F0169AB00EFA947 /* Frameworks */,
+				B64AF6CA2F0169AB00EFA947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B64AF6CE2F0169AB00EFA947 /* JustSend */,
+			);
+			name = JustSend;
+			packageProductDependencies = (
+				B64AF7012F016A0000EFA947 /* InfomaniakRichHTMLEditor */,
+				B64AF8012F016A0000EFA947 /* Sparkle */,
+				B6B2C03B2F02B6E1006E363F /* FirebaseAnalytics */,
+				B6B2C03D2F02B6E1006E363F /* FirebaseAnalyticsCore */,
+				B6B2C03F2F02B6E1006E363F /* FirebaseAnalyticsIdentitySupport */,
+				B6B2C0412F02B6E1006E363F /* FirebaseCrashlytics */,
+			);
+			productName = JustSend;
+			productReference = B64AF6CC2F0169AB00EFA947 /* JustSend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B64AF6D82F0169AC00EFA947 /* JustSendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64AF6F02F0169AD00EFA947 /* Build configuration list for PBXNativeTarget "JustSendTests" */;
+			buildPhases = (
+				B64AF6D52F0169AC00EFA947 /* Sources */,
+				B64AF6D62F0169AC00EFA947 /* Frameworks */,
+				B64AF6D72F0169AC00EFA947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B64AF6DB2F0169AC00EFA947 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B64AF6DC2F0169AC00EFA947 /* JustSendTests */,
+			);
+			name = JustSendTests;
+			packageProductDependencies = (
+			);
+			productName = JustSendTests;
+			productReference = B64AF6D92F0169AC00EFA947 /* JustSendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B64AF6E22F0169AD00EFA947 /* JustSendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64AF6F32F0169AD00EFA947 /* Build configuration list for PBXNativeTarget "JustSendUITests" */;
+			buildPhases = (
+				B64AF6DF2F0169AD00EFA947 /* Sources */,
+				B64AF6E02F0169AD00EFA947 /* Frameworks */,
+				B64AF6E12F0169AD00EFA947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B64AF6E52F0169AD00EFA947 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B64AF6E62F0169AD00EFA947 /* JustSendUITests */,
+			);
+			name = JustSendUITests;
+			packageProductDependencies = (
+			);
+			productName = JustSendUITests;
+			productReference = B64AF6E32F0169AD00EFA947 /* JustSendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B64AF6C42F0169AB00EFA947 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					B64AF6CB2F0169AB00EFA947 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					B64AF6D82F0169AC00EFA947 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = B64AF6CB2F0169AB00EFA947;
+					};
+					B64AF6E22F0169AD00EFA947 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = B64AF6CB2F0169AB00EFA947;
+					};
+				};
+			};
+			buildConfigurationList = B64AF6C72F0169AB00EFA947 /* Build configuration list for PBXProject "JustSend" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B64AF6C32F0169AB00EFA947;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B64AF7002F016A0000EFA947 /* XCRemoteSwiftPackageReference "swift-rich-html-editor" */,
+				B64AF8002F016A0000EFA947 /* XCRemoteSwiftPackageReference "Sparkle" */,
+				B6B2C03A2F02B6E1006E363F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B64AF6CD2F0169AB00EFA947 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B64AF6CB2F0169AB00EFA947 /* JustSend */,
+				B64AF6D82F0169AC00EFA947 /* JustSendTests */,
+				B64AF6E22F0169AD00EFA947 /* JustSendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B64AF6CA2F0169AB00EFA947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64AF6D72F0169AC00EFA947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64AF6E12F0169AD00EFA947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B64AF6C82F0169AB00EFA947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64AF6D52F0169AC00EFA947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64AF6DF2F0169AD00EFA947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B64AF6DB2F0169AC00EFA947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B64AF6CB2F0169AB00EFA947 /* JustSend */;
+			targetProxy = B64AF6DA2F0169AC00EFA947 /* PBXContainerItemProxy */;
+		};
+		B64AF6E52F0169AD00EFA947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B64AF6CB2F0169AB00EFA947 /* JustSend */;
+			targetProxy = B64AF6E42F0169AD00EFA947 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B64AF6EB2F0169AD00EFA947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4XE2P8XZF9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B64AF6EC2F0169AD00EFA947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4XE2P8XZF9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B64AF6EE2F0169AD00EFA947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64AF9012F0169AB00EFA947 /* release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JustSend/JustSend.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = "$(TEAM_ID)";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JustSend/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JustSend;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_SUEnableInstallerLauncherService = YES;
+				INFOPLIST_KEY_SUFeedURL = "https://raw.githubusercontent.com/PrajeetShrestha/JustSend/main/appcast.xml";
+				INFOPLIST_KEY_SUPublicEDKey = "buSBLmtvrB+kmTIbZQIWWiJUyt+9954+SZDl6Qrmxik=";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B64AF6EF2F0169AD00EFA947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64AF9012F0169AB00EFA947 /* release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JustSend/JustSend.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = "$(TEAM_ID)";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JustSend/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JustSend;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_SUEnableInstallerLauncherService = YES;
+				INFOPLIST_KEY_SUFeedURL = "https://raw.githubusercontent.com/PrajeetShrestha/JustSend/main/appcast.xml";
+				INFOPLIST_KEY_SUPublicEDKey = "buSBLmtvrB+kmTIbZQIWWiJUyt+9954+SZDl6Qrmxik=";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B64AF6F12F0169AD00EFA947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = 4XE2P8XZF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codekunda.custom.JustSendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustSend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JustSend";
+			};
+			name = Debug;
+		};
+		B64AF6F22F0169AD00EFA947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = 4XE2P8XZF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codekunda.custom.JustSendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustSend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JustSend";
+			};
+			name = Release;
+		};
+		B64AF6F42F0169AD00EFA947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = 4XE2P8XZF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codekunda.custom.JustSendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JustSend;
+			};
+			name = Debug;
+		};
+		B64AF6F52F0169AD00EFA947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = 4XE2P8XZF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codekunda.custom.JustSendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JustSend;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B64AF6C72F0169AB00EFA947 /* Build configuration list for PBXProject "JustSend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64AF6EB2F0169AD00EFA947 /* Debug */,
+				B64AF6EC2F0169AD00EFA947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64AF6ED2F0169AD00EFA947 /* Build configuration list for PBXNativeTarget "JustSend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64AF6EE2F0169AD00EFA947 /* Debug */,
+				B64AF6EF2F0169AD00EFA947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64AF6F02F0169AD00EFA947 /* Build configuration list for PBXNativeTarget "JustSendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64AF6F12F0169AD00EFA947 /* Debug */,
+				B64AF6F22F0169AD00EFA947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64AF6F32F0169AD00EFA947 /* Build configuration list for PBXNativeTarget "JustSendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64AF6F42F0169AD00EFA947 /* Debug */,
+				B64AF6F52F0169AD00EFA947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B64AF7002F016A0000EFA947 /* XCRemoteSwiftPackageReference "swift-rich-html-editor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Infomaniak/swift-rich-html-editor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		B64AF8002F016A0000EFA947 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		B6B2C03A2F02B6E1006E363F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B64AF7012F016A0000EFA947 /* InfomaniakRichHTMLEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B64AF7002F016A0000EFA947 /* XCRemoteSwiftPackageReference "swift-rich-html-editor" */;
+			productName = InfomaniakRichHTMLEditor;
+		};
+		B64AF8012F016A0000EFA947 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B64AF8002F016A0000EFA947 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+		B6B2C03B2F02B6E1006E363F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6B2C03A2F02B6E1006E363F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		B6B2C03D2F02B6E1006E363F /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6B2C03A2F02B6E1006E363F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		B6B2C03F2F02B6E1006E363F /* FirebaseAnalyticsIdentitySupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6B2C03A2F02B6E1006E363F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsIdentitySupport;
+		};
+		B6B2C0412F02B6E1006E363F /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6B2C03A2F02B6E1006E363F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B64AF6C42F0169AB00EFA947 /* Project object */;
+}
